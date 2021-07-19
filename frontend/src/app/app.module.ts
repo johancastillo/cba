@@ -21,7 +21,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     PageNotFoundComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
