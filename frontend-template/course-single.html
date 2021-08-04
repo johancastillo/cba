@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="style.css">
 	<!-- include the site responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
 	<!-- main container of all the page elements -->
@@ -231,9 +233,34 @@
 								</div>
 							</div>
 						</header>
+
+						<!--
 						<div class="aligncenter content-aligncenter">
 							<img src="images/img35.jpg" alt="image description">
 						</div>
+						-->
+
+						<div class="aligncenter content-aligncenter content-video">
+							<video class="video-mobile" id="video" src="video/01.mp4" autoplay poster="poster/01.png" autoplay controls></video>
+
+							<div id="question" class="question">
+								<p>¿Qué quieres ver?</p>
+
+								<div class="btns-box">
+									<button type="button" class="btn btn-primary" id="option1">
+										Marketing
+									</button>
+
+									<button type="button" class="btn btn-info" id="option2">
+										Full Stack
+									</button>
+
+								</div>
+
+							</div>
+
+						</div>
+
 						<h3 class="content-h3">Course Description</h3>
 						<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 						<p>Encyclopaedia galactica Orion's sword explorations vanquish the impossible, astonishment radio telescope with pretty stories for which there's little good evidence light years muse about, great turbulent clouds billions upon billions the sky calls to us realm of the galaxies laws of physics globular star cluster. Quasar the only home we've ever known extraordi claims require extraordinary evidence billions upon billions Drake Equation.</p>
@@ -772,5 +799,8 @@
 	<script src="js/jquery.main.js"></script>
 	<!-- include jQuery -->
 	<script type="text/javascript" src="js/init.js"></script>
+
+	<script src="js/dinamic-video.js"></script>
+
 </body>
 </html>
